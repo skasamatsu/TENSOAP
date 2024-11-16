@@ -87,7 +87,7 @@ def main():
 
     if (args.apply != ''):
         print("Applying FPS")
-        apply_fps.apply_FPS(PS,fps,ofile=args.apply)
+        apply_FPS(PS,fps,ofile=args.apply)
 
 if __name__=="__main__":
 
